@@ -1,0 +1,81 @@
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 85px;
+  background-color: var(--color-white);
+  border: 1px dashed var(--color-black);
+  box-sizing: border-box;
+  width: 803px;
+  height: 432px;
+}
+.dragAndDrop {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.dragAndDropContainer {
+  position: absolute;
+  top: 270px;
+  left: 222px;
+  display: inline-block;
+  width: 359px;
+  height: 53px;
+}
+.upload1Icon {
+  position: absolute;
+  top: 36px;
+  left: 275px;
+  width: 252.97px;
+  height: 220.95px;
+  object-fit: cover;
+}
+.browse,
+.or {
+  position: absolute;
+  top: 323px;
+  left: 381px;
+}
+.browse {
+  top: 371px;
+  left: 332px;
+  text-decoration: underline;
+  font-weight: 500;
+  color: #4988e7;
+  display: inline-block;
+  width: 163px;
+  height: 48px;
+}
+.rectangleParent {
+  position: absolute;
+  top: 45px;
+  left: 0;
+  width: 803px;
+  height: 432px;
+}
+.groupParent,
+.image1Icon {
+  position: absolute;
+  height: 522px;
+}
+.image1Icon {
+  top: 0;
+  left: 857px;
+  width: 506px;
+  object-fit: cover;
+}
+.groupParent {
+  top: 231px;
+  left: 97px;
+  width: 1363px;
+}
+.app {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
